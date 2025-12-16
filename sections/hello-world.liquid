@@ -1,0 +1,70 @@
+<div style="text-align: {{ section.settings.text-alignment }}">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'heading' -%}
+        <h1>{{ block.settings.title }}</h1>
+      {%- when 'subtitle' -%}
+        <h5>{{ block.settings.subtitle }}</h5>
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Hello World",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "text-alignment",
+      "label": "Text Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Heading",
+      "type": "heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Hello, World!"
+        }
+      ]
+    },
+    {
+      "name": "Subtitle",
+      "type": "subtitle",
+      "settings": [
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle",
+          "default": "Welcome to my Shopify store."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hello World"
+    }
+  ]
+}
+{% endschema %}

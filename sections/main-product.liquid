@@ -105,10 +105,6 @@
                     </h2>
                   </a>
                 </div>
-              {%- when 'material' -%}
-                <div>
-                  <h3>Material: {{ product.metafields.custom.material }}</h3>
-                </div>
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',

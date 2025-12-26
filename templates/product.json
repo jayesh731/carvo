@@ -86,54 +86,6 @@
         "padding_bottom": 12
       }
     },
-    "image_with_text_cpeJHe": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_hdCJbN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_gKHGFK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_qcRKrH": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_hdCJbN",
-        "text_gKHGFK",
-        "button_qcRKrH"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Gemini_Generated_Image_tuwn5ituwn5ituwn_aea69c58-2aad-4fd5-a45d-6d31e92bd33e.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "ambient",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -151,74 +103,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "collapsible_content_k83NHC": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_x9zRij": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "1. Is the Carvo Microfiber Duster safe for all car colors, including black?",
-            "icon": "none",
-            "row_content": "<p>Yes! The duster is made with ultra-soft, scratch-free microfiber, making it completely safe for black, white, and metallic car paints.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_xHwPLc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "2. How often should I wash the duster?",
-            "icon": "none",
-            "row_content": "<p>You only need to wash it once every <strong>2–3 weeks</strong>, depending on usage. For best results, wash gently with mild soap and let it air dry completely.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_bdWDQW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "3. Does it require water or any cleaning liquid?",
-            "icon": "none",
-            "row_content": "<p>No water or liquid is needed. The microfiber fibers attract and hold dust naturally, allowing you to clean your car in just <strong>one dry swipe</strong>.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_LJwNpA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "4. How long does the Carvo Duster last?",
-            "icon": "none",
-            "row_content": "<p>With proper care, it lasts for <strong>12 months or more</strong>, thanks to its durable handle and premium microfiber build.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_x9zRij",
-        "collapsible_row_xHwPLc",
-        "collapsible_row_bdWDQW",
-        "collapsible_row_LJwNpA"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "FAQ Section",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "scheme-1",
-        "color_scheme": "scheme-3",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "image_with_text_cpeJHe",
-    "related-products",
-    "collapsible_content_k83NHC"
+    "related-products"
   ]
 }

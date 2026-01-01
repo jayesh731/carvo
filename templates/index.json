@@ -106,8 +106,9 @@
       ],
       "name": "Steps Section",
       "settings": {
-        "title": "Multicolumn",
+        "title": "The Transportation",
         "heading_size": "h1",
+        "column_alignment_title": "center",
         "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "",
